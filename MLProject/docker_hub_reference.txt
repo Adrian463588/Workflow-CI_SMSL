@@ -1,0 +1,4 @@
+Docker Hub Repository : https://hub.docker.com/repository/docker/adrian090402/credit-risk-model/general
+Docker Image Name     : adrian090402/credit-risk-model:latest
+Pull Command          : docker pull adrian090402/credit-risk-model:latest
+Run Command           : docker run -p 8080:8080 adrian090402/credit-risk-model:latest
