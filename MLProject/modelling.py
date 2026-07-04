@@ -13,6 +13,7 @@ Atau oleh GitHub Actions CI pipeline.
 import argparse
 import logging
 import os
+import shutil
 import sys
 
 import dagshub
@@ -167,7 +168,6 @@ def train(args: argparse.Namespace) -> None:
         mlflow.sklearn.log_model(model, artifact_path="credit-risk-model")
 
         # Save model locally for Docker build reliability
-        import shutil
         local_model_path = "artifacts/credit-risk-model"
         if os.path.exists(local_model_path):
             shutil.rmtree(local_model_path)
