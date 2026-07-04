@@ -1,0 +1,25 @@
+{
+  "name": "workflow-ci_repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adrian463588/Workflow-CI_SMSL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Adrian463588/Workflow-CI_SMSL/issues"
+  },
+  "homepage": "https://github.com/Adrian463588/Workflow-CI_SMSL#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
